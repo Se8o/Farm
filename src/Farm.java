@@ -23,5 +23,20 @@ public class Farm {
             System.out.println("Nelze přidat rostlinu, nedostatek místa nebo dosažen limit druhů.");
         }
     }
+    public void pridatZvire(Animal zvire) {
+        if (this.zvirata.size() < 20) {
+            this.zvirata.add(zvire);
+        } else {
+            System.out.println("Nelze přidat zvíře, dosažen limit.");
+        }
+    }
+
+    public void odebratZvire(Animal zvire) {
+        if (this.zvirata.contains(zvire)) {
+            this.zvirata.remove(zvire);
+        } else {
+            System.out.println("Zvíře nenalezeno na farmě.");
+        }
+    }
 
 }
