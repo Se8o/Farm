@@ -14,5 +14,9 @@ public abstract class Flower {
                 ", chanceOfGrowth=" + chanceOfGrowth +
                 '}';
     }
+    public void zavlaha(){
+        chanceOfGrowth += 0.5;
+        System.out.println("rostlina byla zavlažena a zvíšila se její šance na růst.");
+    }
 
 }
