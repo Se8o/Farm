@@ -54,4 +54,6 @@ public abstract class Animal {
         this.specialCare = specialCare;
     }
     //endregion
+    public abstract void prodat();
+    public abstract void pohladit();
 }
