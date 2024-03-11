@@ -5,11 +5,11 @@ public class MaleZvire extends Animal{
 
     @Override
     public void prodat() {
-        System.out.println(name + "bylo prodano");
+        System.out.println("zvire "+ name + " bylo prodano");
     }
 
     @Override
     public void pohladit() {
-        System.out.println(name + "bylo pohlazeno");
+        System.out.println("zvire " + name + "bylo pohlazeno");
     }
 }
